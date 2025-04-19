@@ -1,8 +1,7 @@
 # ✨ Custom QR Code Generator  
 
 A stylish QR code generator built with **HTML, CSS, and JavaScript**. Customize colors, size, and add a logo!  
-
-![Preview](https://i.imgur.com/JQ1q5Wl.png) *(Example: QR with custom logo and gradient)*  
+ 
 
 ## 🚀 Features  
 - **Personalize**: Change QR color, background, and size.  
