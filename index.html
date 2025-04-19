@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de QR Personalizable</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de QR <span>✨</span></h1>
+        <div class="qr-controls">
+            <input type="text" id="qr-text" placeholder="Ingresa URL o texto..." value="https://youtube.com">
+            <button id="generate-btn">Generar QR</button>
+        </div>
+        
+        <div class="customization">
+            <div class="color-picker">
+                <label>Color del QR:</label>
+                <input type="color" id="qr-color" value="#000000">
+            </div>
+            <div class="color-picker">
+                <label>Fondo:</label>
+                <input type="color" id="bg-color" value="#ffffff">
+            </div>
+            <div class="slider">
+                <label>Tamaño: <span id="size-value">200</span>px</label>
+                <input type="range" id="qr-size" min="100" max="300" value="200">
+            </div>
+        </div>
+
+        <div class="qr-logo-option">
+            <label>Añadir logo:</label>
+            <input type="file" id="logo-upload" accept="image/*">
+        </div>
+
+        <div id="qr-code"></div>
+        <button id="download-btn">Descargar QR</button>
+    </div>
+
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
