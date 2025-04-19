@@ -5,13 +5,13 @@
 A stylish QR code generator built with **HTML, CSS, and JavaScript**. Customize colors, size, and add a logo!  
  
 
-## 🚀 Features  
+##  Features  
 - **Personalize**: Change QR color, background, and size.  
 - **Add a Logo**: Place an image at the center.  
 - **Download**: Save your QR as a PNG.  
 - **No API Needed**: Works offline with [QRCode.js](https://github.com/davidshimjs/qrcodejs).  
 
-## 🛠️ How to Use  
+##  How to Use  
 1. Enter a URL/text.  
 2. Pick colors and adjust size.  
 3. Upload a logo (optional).  
