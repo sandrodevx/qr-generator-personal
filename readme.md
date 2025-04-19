@@ -1,3 +1,5 @@
+[View Live Page](https://sandrodevx.github.io/qr-generator-personal/)
+
 # ✨ Custom QR Code Generator  
 
 A stylish QR code generator built with **HTML, CSS, and JavaScript**. Customize colors, size, and add a logo!  
